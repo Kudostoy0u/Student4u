@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+      <title>Student4u</title>
+      <link rel = "shortcut icon" href = "/static/favicon.ico"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" href = "/static/styleme.css"/>
+  <script src = "/static/scriptr.js" defer></script>
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/"><img width = "30" height = "30" src = "/static/logo.png"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Spell Check <span class="sr-only">(current)</span></a>
+      </li>
+      
+ <li class="nav-item">
+        <a class="nav-link text-primary" href="/plagarism">Plagarism check</a>
+      </li>
+                  <li class="nav-item">
+        <a class="nav-link text-primary" href="/profile">Placeholder</a>
+      </li>
+
+
+      
+    </ul>
+    
+  </div>
+
+
+</nav>
+<div class="container-fluid text-center">
+<h1 class="display-1">Instantly check your spelling!</h1>
+<div class = "d-flex">
+<textarea placeholder = "Text to correct.." class = "w-50 textarea rounded" name="" id="correctme" cols="30" rows="10"></textarea>
+<textarea class = "w-50 textarea rounded" name="" id="theoutput" cols="30" rows="10" readonly>Corrected text here</textarea>
+</div>
+<a class = "btn btn-info w-100">Correct</a>
+</div>
+
+  </body>
+  </html>
